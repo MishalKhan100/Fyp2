@@ -12,7 +12,7 @@ const simplepage = mongoose.model("recordingchecks")
 
 
 
-const mongoUri = "mongodb+srv://cgp:t4uDPBmKOBoMXvav@cluster0.2w6dq.mongodb.net/<dbname>?retryWrites=true&w=majority" 
+const mongoUri = "mongodb+srv://--" 
 
 mongoose.connect(mongoUri,{
 useNewUrlParser:true,
